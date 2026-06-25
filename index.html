@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silver Solutions — Web that flows</title>
+  
+  <!-- ===== PRE-CONNECT FOR FONTS ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- ===== PRIMARY META ===== -->
+  <meta name="description" content="We build fast, custom websites for businesses who'd rather be running their company than fighting a website builder. See our work and get a quote.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://silversolutions.example.com">
+
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:title" content="Silver Solutions — Web that flows like you mean it">
+  <meta property="og:description" content="Custom websites built around your customers. Fast, fluid, and designed to convert.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://silversolutions.example.com">
+  <meta property="og:image" content="https://silversolutions.example.com/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- ===== TWITTER CARD ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Silver Solutions — Custom Web Design">
+  <meta name="twitter:description" content="Websites that move like you mean it. Built for businesses, not templates.">
+  <meta name="twitter:image" content="https://silversolutions.example.com/og-image.jpg">
+
+  <!-- ===== FAVICON ===== -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%238b9dc3'/><circle cx='50' cy='50' r='30' fill='%23eef0f3'/></svg>">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- ===== GOOGLE ANALYTICS ===== -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- ===== EXTERNAL CSS ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <!-- ===== ALL YOUR HTML CONTENT GOES HERE ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header>
+    <nav>
+      <a href="#" class="logo"><span class="logo-mark"></span>Silver Solutions</a>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#work">Work</a>
+        <a href="#pricing">Pricing</a>
+      </div>
+      <a href="#contact" class="nav-cta">Start a project</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <canvas id="mercury-canvas"></canvas>
+    <div class="wrap hero-inner">
+      <div class="eyebrow"><span class="dot"></span>WEB DESIGN &amp; DEVELOPMENT STUDIO</div>
+      <h1>
+        <span class="line"><span>Websites that move</span></span>
+        <span class="line"><span class="shine">like you mean it.</span></span>
+      </h1>
+      <p class="lede">We design and build sites for people who'd rather be running their business than fighting a website builder. Fast, fluid, and built around your customers — because that's who actually matters here.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary" id="heroBtn"><span>Start a project</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#work" class="btn-ghost">See the work →</a>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>SCROLL</span><span class="line-track"></span></div>
+  </section>
+
+  <!-- Marquee Strip -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>ONLY SECOND TO OUR CUSTOMERS</span>
+      <span>WEB DESIGN</span>
+      <span>BRAND SITES</span>
+      <span>E-COMMERCE</span>
+      <span>SEO &amp; SPEED</span>
+      <span>ONGOING CARE</span>
+      <span>ONLY SECOND TO OUR CUSTOMERS</span>
+      <span>WEB DESIGN</span>
+      <span>BRAND SITES</span>
+      <span>E-COMMERCE</span>
+      <span>SEO &amp; SPEED</span>
+      <span>ONGOING CARE</span>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="tag">What we do</span>
+        <h2>Everything between "I need a website" and it actually working for you.</h2>
+        <p>No jargon, no 40-page proposals. Just the parts of the web that make customers stay.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <span class="service-num">01</span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/><circle cx="6.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/></svg></div>
+          <h3>Custom design</h3>
+          <p>A site built around how your customers actually think, not a template that almost fits.</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">02</span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><path d="M8 6L4 12l4 6M16 6l4 6-4 6"/></svg></div>
+          <h3>Development</h3>
+          <p>Clean, fast, no-bloat builds that load quick on a phone in a parking lot with bad signal.</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">03</span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><path d="M12 21s-8-5-8-11a8 8 0 0116 0c0 6-8 11-8 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+          <h3>E-commerce</h3>
+          <p>Storefronts that make checking out feel like the easiest part of someone's day.</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">04</span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><path d="M3 12h4l2-8 4 16 2-8h6"/></svg></div>
+          <h3>SEO &amp; speed</h3>
+          <p>Get found, get loaded, get chosen, before someone bounces to a competitor's tab.</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">05</span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><path d="M4 4v16M4 4h16M4 12h10M4 20h16" /></svg></div>
+          <h3>Brand &amp; content</h3>
+          <p>Words and visuals that sound like you, written by people who'll actually read it back.</p>
+        </div>
+        <div class="service-card reveal">
+          <span class="service-num">06</span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <h3>Ongoing care</h3>
+          <p>Updates, fixes, and small tweaks handled — so the site keeps working long after launch day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="process" class="process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="tag">How it goes</span>
+        <h2>Four steps. No surprises in between.</h2>
+      </div>
+      <div class="process-rail">
+        <svg preserveAspectRatio="none" viewBox="0 0 100 6">
+          <path class="rail-path" d="M0,3 L100,3" pathLength="1"/>
+          <path class="rail-fill" id="railFill" d="M0,3 L100,3" pathLength="1"/>
+        </svg>
+        <div class="process-steps">
+          <div class="process-step reveal"><span class="process-dot"></span><span class="step-label">STEP 1</span><h4>Talk it through</h4><p>A real conversation about who your customers are and what they need from you online.</p></div>
+          <div class="process-step reveal"><span class="process-dot"></span><span class="step-label">STEP 2</span><h4>Design it</h4><p>We map the site and show you how it looks before a line of it is built.</p></div>
+          <div class="process-step reveal"><span class="process-dot"></span><span class="step-label">STEP 3</span><h4>Build it</h4><p>Development, content, and testing — across every screen size that matters.</p></div>
+          <div class="process-step reveal"><span class="process-dot"></span><span class="step-label">STEP 4</span><h4>Launch &amp; support</h4><p>It goes live, and we stay close in case anything needs adjusting.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="tag">Recent work</span>
+        <h2>A few sites we're proud to have shipped.</h2>
+      </div>
+      <div class="work-list">
+        <div class="work-row reveal">
+          <span class="wnum">01</span>
+          <h3>This could be you</h3>
+          <span class="wtag">E-commerce · Local retail</span>
+          <span class="wresult">+64% online orders</span>
+          <svg class="warrow" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 15L15 5M15 5H7M15 5V13" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <div class="work-row reveal">
+          <span class="wnum">02</span>
+          <h3>Or this</h3>
+          <span class="wtag">Brand site · Professional services</span>
+          <span class="wresult">+41% consult bookings</span>
+          <svg class="warrow" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 15L15 5M15 5H7M15 5V13" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <div class="work-row reveal">
+          <span class="wnum">03</span>
+          <h3>Or this</h3>
+          <span class="wtag">E-commerce · Outdoor gear</span>
+          <span class="wresult">1.9s avg load time</span>
+          <svg class="warrow" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 15L15 5M15 5H7M15 5V13" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <div class="work-row reveal">
+          <span class="wnum">04</span>
+          <h3>Even this!</h3>
+          <span class="wtag">Booking site · Healthcare</span>
+          <span class="wresult">+118% appointment leads</span>
+          <svg class="warrow" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 15L15 5M15 5H7M15 5V13" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="testi">
+    <div class="wrap testi-inner reveal">
+      <p class="testi-quote">Let's get your Testimony here!</p>
+      <div class="testi-attr">
+        <div class="testi-avatar"></div>
+        <div><div class="name">Sifiso</div><div class="role">Owner, Silver Solutions</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="tag">Pricing</span>
+        <h2>Straightforward packages. No hidden line items.</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <div class="price-name">Starter</div>
+          <div class="price-cost">R8,000</div>
+          <div class="price-desc">For a clean, single-purpose site that gets you online properly.</div>
+          <ul class="price-list">
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Up to 5 pages</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Mobile-first build</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Basic SEO setup</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>2 weeks of support</li>
+          </ul>
+          <a href="#contact" class="price-btn">Choose Starter</a>
+        </div>
+        <div class="price-card featured reveal">
+          <div class="price-name">Growth</div>
+          <div class="price-cost">R 15,000</div>
+          <div class="price-desc">For a site that's actively selling, booking, or converting for you.</div>
+          <ul class="price-list">
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Up to 12 pages</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>E-commerce or booking</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Full SEO &amp; speed pass</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>3 months of support</li>
+          </ul>
+          <a href="#contact" class="price-btn">Choose Growth</a>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-name">Partner</div>
+          <div class="price-cost">Custom</div>
+          <div class="price-desc">For ongoing builds, multi-site brands, or bigger e-commerce catalogs.</div>
+          <ul class="price-list">
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Unlimited pages</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Dedicated designer</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Priority turnaround</li>
+            <li><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3.5 3.5L12 4" stroke-width="1.6"/></svg>Ongoing retainer support</li>
+          </ul>
+          <a href="#contact" class="price-btn">Talk to us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag">Get in touch</span>
+      <h2>Let's build something<br>your customers actually like.</h2>
+      <p>Tell us what you're working on — we'll reply within a day, not a quarter.</p>
+    </div>
+    
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4l8 5 8-5M2 4v12a2 2 0 002 2h12a2 2 0 002-2V4"/></svg>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:Sifiso.Dev@gmail.com">Sifiso.Dev@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5z"/><path d="M12 10l4-4M8 10l-4-4"/></svg>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+27670331763">{+27670331763</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 10a3 3 0 100-6 3 3 0 000 6z"/><path d="M16 10c0 4-6 8-6 8s-6-4-6-8a6 6 0 0112 0z"/></svg>
+          <div>
+            <strong>Location</strong>
+            <span>Centurion, GP</span>
+          </div>
+        </div>
+        <div class="contact-hours">
+          <strong>Response time:</strong>
+          <span>Within 24 hours</span>
+        </div>
+      </div>
+      
+      <!-- ===== NETLIFY FORM ===== -->
+      <form class="contact-form" 
+            name="contact" 
+            method="POST" 
+            netlify 
+            netlify-honeypot="bot-field"
+            id="contactForm">
+        
+        <!-- Netlify required hidden fields -->
+        <input type="hidden" name="form-name" value="contact">
+        
+        <!-- Honeypot field to prevent spam (hidden from real users) -->
+        <div style="display:none;">
+          <label>Don't fill this out: <input name="bot-field"></label>
+        </div>
+        
+        <!-- Form fields with proper name attributes -->
+        <div class="form-group">
+          <label for="formName">Your name *</label>
+          <input type="text" id="formName" name="name" required placeholder="e.g., Sarah Johnson">
+        </div>
+        
+        <div class="form-group">
+          <label for="formEmail">Email address *</label>
+          <input type="email" id="formEmail" name="email" required placeholder="sarah@company.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="formPhone">Phone number</label>
+          <input type="tel" id="formPhone" name="phone" placeholder="(555) 123-4567">
+        </div>
+        
+        <div class="form-group">
+          <label for="formBudget">Estimated budget</label>
+          <select id="formBudget" name="budget">
+            <option value="">Select a range...</option>
+            <option value="8k-13k">R8,000 – R13,000</option>
+            <option value="13k-20k">13,000 – R20,000</option>
+            <option value="20k-25k">R20,000 – R25,000</option>
+            <option value="50k+">R50,000+</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="formMessage">Tell us about your project *</label>
+          <textarea id="formMessage" name="message" required rows="5" placeholder="What are you looking to build? Who's it for? What's your timeline?"></textarea>
+        </div>
+        
+        <div class="form-group form-check">
+          <input type="checkbox" id="formConsent" name="consent" required>
+          <label for="formConsent">I agree to be contacted about this project *</label>
+        </div>
+        
+        <button type="submit" class="btn-primary">
+          <span>Send message</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        
+        <div id="formSuccess" style="display:none; color:#8b9dc3; margin-top:16px; padding:16px; border:1px solid #8b9dc3; border-radius:8px;">
+          ✅ Thanks! We'll get back to you within 24 hours.
+        </div>
+        <div id="formError" style="display:none; color:#e74c3c; margin-top:16px; padding:16px; border:1px solid #e74c3c; border-radius:8px;">
+          ❌ Oops! Something went wrong. Please try again or email us directly.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo"><span class="logo-mark"></span>Silver Solutions</a>
+          <p>Cause we're only 2nd to you.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h5>Studio</h5>
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#work">Work</a>
+          </div>
+          <div class="footer-col">
+            <h5>Get in touch</h5>
+            <a href="mailto:Sifiso.Dev@gmail">Sifiso.Dev@gmail.com</a>
+            <a href="#contact">Start a project</a>
+          </div>
+          <div class="footer-col">
+            <h5>Legal</h5>
+            <a href="#" onclick="openLegal('privacy'); return false;">Privacy Policy</a>
+            <a href="#" onclick="openLegal('terms'); return false;">Terms of Service</a>
+            <a href="#" onclick="openLegal('cookies'); return false;">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Silver Solutions. All rights reserved.</span>
+        <span class="slogan">"Only second to our customers."</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== LEGAL MODAL ===== -->
+  <div id="legalModal" style="display:none; position:fixed; inset:0; z-index:1000; background:rgba(0,0,0,0.8); backdrop-filter:blur(8px); align-items:center; justify-content:center; padding:20px;">
+    <div style="background:var(--panel); border:1px solid var(--line); border-radius:20px; max-width:700px; max-height:80vh; overflow-y:auto; padding:48px; position:relative;">
+      <button onclick="closeLegal()" style="position:sticky; top:0; float:right; color:var(--steel); font-size:1.5rem; background:none; border:none; cursor:pointer;">✕</button>
+      <div id="legalContent"></div>
+    </div>
+  </div>
+
+  <!-- ===== COOKIE CONSENT BANNER ===== -->
+  <div id="cookieBanner" style="display:none; position:fixed; bottom:20px; left:50%; transform:translateX(-50%); z-index:999; background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:20px 28px; max-width:580px; width:90%; backdrop-filter:blur(12px);">
+    <p style="font-size:0.9rem; color:var(--silver); margin-bottom:12px;">We use minimal cookies to improve your experience. By using our site, you accept our cookie policy.</p>
+    <div style="display:flex; gap:12px; flex-wrap:wrap;">
+      <button onclick="acceptCookies()" style="padding:8px 20px; border-radius:99px; background:var(--glint); color:var(--black); font-weight:600; font-size:0.85rem; border:none; cursor:pointer;">Accept</button>
+      <button onclick="document.getElementById('cookieBanner').style.display='none'" style="padding:8px 20px; border-radius:99px; border:1px solid var(--line); color:var(--silver); font-size:0.85rem; background:none; cursor:pointer;">Decline</button>
+      <a href="#" onclick="openLegal('cookies'); return false;" style="font-size:0.85rem; color:var(--glint); align-self:center;">Learn more</a>
+    </div>
+  </div>
+
+  <!-- ===== EXTERNAL JAVASCRIPT ===== -->
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
